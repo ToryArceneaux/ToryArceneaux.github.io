@@ -10,7 +10,7 @@ YT.ready(_=>{
         playerVars: { "autoplay": 0, "controls": 0, "loop": 1, "playlist": videoId},
         events: {
             "onReady": e => {
-                e.target.setVolume(25);
+                e.target.setVolume(100);
                 clearInterval(loadInterval)
                 button.innerText = "Arceneaux $$$ ;)"
                 button.classList.add("ready");
