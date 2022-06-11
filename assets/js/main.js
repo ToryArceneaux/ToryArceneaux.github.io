@@ -12,7 +12,7 @@ YT.ready(_=>{
             "onReady": e => {
                 e.target.setVolume(25);
                 clearInterval(loadInterval)
-                button.innerText = "Don't be afraid, just click"
+                button.innerText = "Arceneaux $$$ ;)"
                 button.classList.add("ready");
                 button.addEventListener("click", () => {
                     animInterval = setInterval(preloaderAnim, 10);
