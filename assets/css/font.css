@@ -12,5 +12,5 @@
     font-family: 'CognacRum';
     font-style: normal;
     font-weight: 400;
-    src: local('Cognac Rums'), url('../font/CognacC.woff') format('woff');
+    src: local('Cognac Rum'), url('../font/CognacC.woff') format('woff');
 }
