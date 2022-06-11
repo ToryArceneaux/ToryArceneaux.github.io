@@ -7,10 +7,10 @@ const videoId = "8KqHCNERjms"
 YT.ready(_=>{
     window.player = new YT.Player("player", {
         videoId: videoId,
-        playerVars: { "autoplay": 1, "controls": 0, "loop": 1, "playlist": videoId},
+        playerVars: { "autoplay": 0, "controls": 0, "loop": 1, "playlist": videoId},
         events: {
             "onReady": e => {
-                e.target.setVolume(90);
+                e.target.setVolume(100);
                 clearInterval(loadInterval)
                 button.innerText = "Arceneaux $$$ ;)"
                 button.classList.add("ready");
